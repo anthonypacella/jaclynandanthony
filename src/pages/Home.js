@@ -59,7 +59,15 @@ export default function Home() {
           <div className="column storyparagraphContainer">
             <div className="">
               <p className='title is-5'>A STORY TEN YEARS IN THE MAKING</p>
-              <p className='storyParagraph'>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+              <p className='storyParagraph'>
+                Jaclyn and Anthony's story begins in 2013 at The Ohio State University - where they both attended college. 
+                <br></br>
+                <br></br>
+                Being from the same hometown, it was only a matter of time until their many mutual friends in Columbus led them to cross paths.
+                <br></br>
+                <br></br>
+                After 7 wonderful years together, Anthony asked Jaclyn to marry him on the beach in one of their favorite places in the world: Orange Beach, Alabama. Both Anthony and Jaclyn couldn't be more exctied to celebrate with you in June!
+                </p>
             </div>
           </div>
         </div>

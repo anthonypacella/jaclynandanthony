@@ -39,3 +39,39 @@ a:hover {
 #logo {
     margin: auto;
 }
+
+@media screen and (max-width: 1000px) {
+
+    .footer1 {
+        display: flex;
+        margin-left: 0px;
+        margin-right: auto;
+        height: 50px;
+    }
+    .fullFooter {
+        margin-top: 75px;
+    }
+    
+    .footerLine {
+        font-size: 10px;
+        text-decoration: none;
+        margin: auto;
+    }
+    
+    a {
+        color: inherit;
+        text-decoration: underline;
+    }
+    
+    a:hover {
+        font-size: 22px;
+    }
+    
+    .line {
+        width: 800px;
+        height: 1px;
+        background-color: black;
+        margin: auto;
+    }
+
+}

@@ -16,6 +16,8 @@
     background-color: rgb(253,252,248);
     display: flex;
     justify-content: center;
+    height: 0px;
+    min-height: 0px;
 }
 
 .navbar-item {
@@ -34,3 +36,11 @@
     margin-right: auto;
     margin-top: -225px;
 }
+
+
+@media screen and (max-width: 480px) {
+    #logo {
+        max-height: 50px;
+        height: 50x;
+    }
+  }
