@@ -21,23 +21,20 @@ export default function Home() {
           </div>
         </div>
         
-        <div className='container photoContainer'>
-          <figure className = 'image photo1Container'>
-            <img className = 'collagePhoto photo1' src={photo1}></img>
-          </figure>
-          <figure className = 'image photo2Container'>
+        <div className='photoContainer'>
+          <figure className = 'image img1 photo2Container'>
             <img className = 'collagePhoto photo2' src={photo2}></img>
           </figure>
-          <figure className = 'image photo3Container'>
+          <figure className = 'image img1 photo3Container'>
             <img className = 'collagePhoto photo3' src={photo3}></img>
           </figure>
-          <figure className = 'image photo4Container'>
+          <figure className = 'image img1 photo4Container'>
             <img className = 'collagePhoto photo4' src={photo4}></img>
           </figure>
-          <figure className = 'image photo5Container'>
+          <figure className = 'image img1 photo5Container'>
             <img className = 'collagePhoto photo5' src={photo5}></img>
           </figure>
-          <figure className = 'image photo6Container'>
+          <figure className = 'image img1 photo6Container'>
             <img className = 'collagePhoto photo6' src={photo6}></img>
           </figure>
         </div>

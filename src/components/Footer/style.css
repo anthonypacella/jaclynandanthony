@@ -41,7 +41,40 @@ a:hover {
     margin: auto;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
+    .footer1 {
+        display: flex;
+        margin-left: 45px;
+        margin-right: auto;
+        height: 50px;
+    }
+    .fullFooter {
+        margin-top: 30px;
+        height: 100px;
+    }
+    
+    .footerLine {
+        font-size: 7px;
+        text-decoration: none;
+        margin: auto;
+    }
+    
+    a {
+        color: inherit;
+        text-decoration: underline;
+    }
+    
+    a:hover {
+        font-size: 22px;
+    }
+
+    .line {
+        width: 250px;
+        margin-left: 58px;
+    }
+}
+
+@media screen and (min-width: 321px) {
 
     .footer1 {
         display: flex;
@@ -144,6 +177,103 @@ a:hover {
 }
 
 @media screen and (min-width: 415px) {
+    .footer1 {
+        display: flex;
+        margin-left: 0px;
+        margin-right: auto;
+        height: 50px;
+    }
+    .fullFooter {
+        margin-top: 30px;
+        height: 500px;
+    }
+    
+    .footerLine {
+        font-size: 18px;
+        text-decoration: none;
+        margin: auto;
+    }
+    
+    a {
+        color: inherit;
+        text-decoration: underline;
+    }
+    
+    a:hover {
+        font-size: 22px;
+    }
+
+    .line {
+        width: 250px
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .footer1 {
+        display: flex;
+        margin-left: 0px;
+        margin-right: auto;
+        height: 50px;
+    }
+    .fullFooter {
+        margin-top: 30px;
+        height: 800px;
+    }
+    
+    .footerLine {
+        font-size: 18px;
+        text-decoration: none;
+        margin: auto;
+    }
+    
+    a {
+        color: inherit;
+        text-decoration: underline;
+    }
+    
+    a:hover {
+        font-size: 22px;
+    }
+
+    .line {
+        width: 250px
+    }
+}
+
+@media screen and (min-width: 821px) {
+    .footer1 {
+        display: flex;
+        margin-left: 0px;
+        margin-right: auto;
+        height: 50px;
+    }
+    .fullFooter {
+        margin-top: 30px;
+        height: 850px;
+    }
+    
+    .footerLine {
+        font-size: 18px;
+        text-decoration: none;
+        margin: auto;
+    }
+    
+    a {
+        color: inherit;
+        text-decoration: underline;
+    }
+    
+    a:hover {
+        font-size: 22px;
+    }
+
+    .line {
+        width: 250px
+    }
+}
+
+
+@media screen and (min-width: 1025px) {
     .footer1 {
         display: flex;
         margin-left: 60px;
