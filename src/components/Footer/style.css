@@ -6,6 +6,7 @@
 }
 .fullFooter {
     margin-top: 75px;
+    height: 150px
 }
 
 .footerLine {
@@ -40,7 +41,7 @@ a:hover {
     margin: auto;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 375px) {
 
     .footer1 {
         display: flex;
@@ -49,11 +50,113 @@ a:hover {
         height: 50px;
     }
     .fullFooter {
-        margin-top: 75px;
+        margin-top: 30px;
+        height: 100px;
     }
     
     .footerLine {
         font-size: 10px;
+        text-decoration: none;
+        margin: auto;
+    }
+    
+    a {
+        color: inherit;
+        text-decoration: underline;
+    }
+    
+    a:hover {
+        font-size: 22px;
+    }
+
+    .line {
+        width: 250px
+    }
+    
+}
+
+@media screen and (min-width: 376px) {
+
+    .footer1 {
+        display: flex;
+        margin-left: 0px;
+        margin-right: auto;
+        height: 50px;
+    }
+    .fullFooter {
+        margin-top: 30px;
+        height: 250px;
+    }
+    
+    .footerLine {
+        font-size: 10px;
+        text-decoration: none;
+        margin: auto;
+    }
+    
+    a {
+        color: inherit;
+        text-decoration: underline;
+    }
+    
+    a:hover {
+        font-size: 22px;
+    }
+
+    .line {
+        width: 250px
+    }
+    
+}
+
+@media screen and (min-width: 391px) {
+
+    .footer1 {
+        display: flex;
+        margin-left: 0px;
+        margin-right: auto;
+        height: 50px;
+    }
+    .fullFooter {
+        margin-top: 30px;
+        height: 300px;
+    }
+    
+    .footerLine {
+        font-size: 10px;
+        text-decoration: none;
+        margin: auto;
+    }
+    
+    a {
+        color: inherit;
+        text-decoration: underline;
+    }
+    
+    a:hover {
+        font-size: 22px;
+    }
+
+    .line {
+        width: 250px
+    }
+    
+}
+
+@media screen and (min-width: 415px) {
+    .footer1 {
+        display: flex;
+        margin-left: 60px;
+        margin-right: auto;
+        height: 50px;
+    }
+    .fullFooter {
+        margin-top: 75px;
+        height: 150px
+    }
+    
+    .footerLine {
+        font-size: 20px;
         text-decoration: none;
         margin: auto;
     }
@@ -73,5 +176,15 @@ a:hover {
         background-color: black;
         margin: auto;
     }
-
+    
+    .footerLogo {
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    #logo {
+        margin: auto;
+    }
 }
+

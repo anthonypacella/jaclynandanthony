@@ -37,6 +37,12 @@
     margin-top: -225px;
 }
 
+.navbar-burger {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 200px;
+}
+
 
 @media screen and (max-width: 480px) {
     #logo {

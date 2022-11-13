@@ -30,22 +30,21 @@ const Nav = () => {
   return (
 
     <div className=''>
-<div className="navbar-brand">
-        <Link className = 'navbar-item' to="/">
-          <img src={logo} alt="logo" id='logo'></img>
-        </Link>
+        <div className="navbar-brand">
+          <Link className = 'navbar-item' to="/">
+            <img src={logo} alt="logo" id='logo'></img>
+          </Link>
 
-        <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
+          <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navChoices">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        
       <nav className="navbar" role="navigation" aria-label="main navigation">
-
-
-        <div id="" className="navbar-menu">
+        <div id="navChoices" className="navbar-menu">
           <div className="navbar-start">
             <Link className='navbar-item' to="/RSVP">
               RSVP
@@ -60,14 +59,9 @@ const Nav = () => {
               Wedding Partys
             </Link> */}
 
-            {/* <a className = 'navbar-item' target="_blank" href="https://www.yahoo.com">
+            <a className = 'navbar-item' target="_blank" href="https://registry.theknot.com/jaclyn-jones-anthony-pacella-june-2023-oh/53433380">
               Registry
-            </a>           */}
-
-            <Link className='navbar-item' to="/Registry">
-              Registry
-            </Link>
-
+            </a>
 
           </div>
 
