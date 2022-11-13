@@ -28,9 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const Nav = () => {  
   return (
-
-    <div className=''>
-        <div className="navbar-brand">
+      <nav className="navbar" role="navigation" aria-label="main navigation">
+          <div className="navbar-brand">
           <Link className = 'navbar-item' to="/">
             <img src={logo} alt="logo" id='logo'></img>
           </Link>
@@ -41,9 +40,8 @@ const Nav = () => {
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </a>
+
         </div>
-        
-      <nav className="navbar" role="navigation" aria-label="main navigation">
         <div id="navChoices" className="navbar-menu">
           <div className="navbar-start">
             <Link className='navbar-item' to="/RSVP">
@@ -66,9 +64,7 @@ const Nav = () => {
           </div>
 
         </div>
-      </nav>
-    </div>
-        
+      </nav>        
   )
 };
 
