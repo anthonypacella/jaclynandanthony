@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.5a3e3d7c.chunk.css",
-    "main.js": "/static/js/main.f4e84a68.chunk.js",
-    "main.js.map": "/static/js/main.f4e84a68.chunk.js.map",
+    "main.css": "/static/css/main.54c2bf99.chunk.css",
+    "main.js": "/static/js/main.400f4283.chunk.js",
+    "main.js.map": "/static/js/main.400f4283.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.44d4b42e.js",
     "runtime-main.js.map": "/static/js/runtime-main.44d4b42e.js.map",
     "static/js/2.45169613.chunk.js": "/static/js/2.45169613.chunk.js",
     "static/js/2.45169613.chunk.js.map": "/static/js/2.45169613.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.5a3e3d7c.chunk.css.map": "/static/css/main.5a3e3d7c.chunk.css.map",
+    "static/css/main.54c2bf99.chunk.css.map": "/static/css/main.54c2bf99.chunk.css.map",
     "static/js/2.45169613.chunk.js.LICENSE.txt": "/static/js/2.45169613.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/FuturaLT-Light.141f7b20.woff",
     "static/media/style.css": "/static/media/Magic Sparkle.a42de56f.ttf",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.44d4b42e.js",
     "static/js/2.45169613.chunk.js",
-    "static/css/main.5a3e3d7c.chunk.css",
-    "static/js/main.f4e84a68.chunk.js"
+    "static/css/main.54c2bf99.chunk.css",
+    "static/js/main.400f4283.chunk.js"
   ]
 }
